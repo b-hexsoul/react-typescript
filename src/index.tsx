@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom';
-import EventComponent from './events/EventComponent';
+import GuestList from './state-mini-app/GuestList';
+
 
 const App = () => {
   return (
     <div>
-      <EventComponent/>
+      <GuestList/>
     </div>
   );
 };

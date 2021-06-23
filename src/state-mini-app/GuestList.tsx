@@ -9,7 +9,7 @@ const GuestList: React.FC = () => {
     setGuests([...guests, name])
   }
   return <div>
-    <h3>Guess List</h3>
+    <h3>Guest List</h3>
     <ul>
       {guests.map(guest => (
         <li key={guest}>{guest}</li>
